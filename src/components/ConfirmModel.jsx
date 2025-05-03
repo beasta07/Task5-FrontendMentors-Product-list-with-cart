@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useRef } from 'react';
-import { CartContext } from '../context/cartContext';
+import { CartContext } from '../context/CartContext';
 
 const ConfirmModel = ({ toggleModel, openModel }) => {
     const { cartItems } = useContext(CartContext)

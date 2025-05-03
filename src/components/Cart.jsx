@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react'
-import { CartContext } from '../context/cartContext'
+import { CartContext } from '../context/CartContext'
 import ConfirmModel from './ConfirmModel'
 
 const Cart = () => {

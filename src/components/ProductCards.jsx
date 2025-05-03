@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react'
 import data from '../../data.json'
-import { CartContext } from '../context/cartContext'
+import { CartContext } from '../context/CartContext'
 
 const ProductCards = () => {
   const [selectedIndex, setSelectedIndex] = useState(null)
