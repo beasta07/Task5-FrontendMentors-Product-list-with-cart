@@ -1,0 +1,8 @@
+@font-face {
+  font-family: RedHat ;
+  src: url('../assets/fonts/static/RedHatText-Regular.ttf');
+}
+@import "tailwindcss";
+
+@theme{
+ --font-redhat: RedHat}
